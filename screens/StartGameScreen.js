@@ -37,8 +37,11 @@ const styles = StyleSheet.create({
         shadowColor: 'black',
         shadowOffset: {width: 0, height: 2},
         shadowRadius: 6,
+        elevation: 8,
         shadowOpacity: 0.26,
-        backgroundColor: 'white'
+        backgroundColor: 'white',
+        padding: 20,
+        borderRadius: 10
         
     },
     buttonContainer: {
