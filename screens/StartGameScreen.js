@@ -23,6 +23,7 @@ const StartGameScreen = props => {
                 autoCorrect={false} 
                 keyboardType="number-pad" 
                 maxLength={2}
+                onChangeText={numberInputHandler}
                 />
                 <View style={styles.buttonContainer}>
                 <Button title="Reset" onPress={() => {}} color={Colors.accent} />
