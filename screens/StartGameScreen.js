@@ -12,7 +12,7 @@ import {
 import Card from '../components/Card';
 import Colors from '../constants/colors';
 import Input from '../components/Input';
-import { unstable_renderSubtreeIntoContainer } from 'react-dom';
+
 
 const StartGameScreen = props => {
     const [enteredValue, setEnteredValue] = useState('');
